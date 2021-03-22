@@ -54,7 +54,6 @@ const App = () => {
                   isBlocked={item.isBlocked}
                   setItems={setItems}
                   initialCount={item.count}
-                  setIsLoading={setIsLoading}
                 />
               </li>
             ))}
